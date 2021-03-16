@@ -1,0 +1,35 @@
+.bg-primary {
+    background-color: #2c3e50 !important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(89, 115, 110, 0.56) !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2f3131 !important;
+    border-color: #272b2a !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #2e3534;
+    border-color: #353938;
+    box-shadow: 0 0 0 0.2rem rgba(42, 45, 44, 0.5) !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #525252 !important;
+    border-color: #4e4e4e !important;
+}
+
+li > a[title="zaher work"] {
+    font-size: 20px;
+}
